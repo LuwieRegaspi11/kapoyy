@@ -1,0 +1,19 @@
+{
+  "name": "alumni-tracer-donation-backend",
+  "version": "1.0.0",
+  "description": "REST API backend for the Asian College Alumni Tracer and Donation Management System (Postgres/Supabase)",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  },
+  "license": "MIT"
+}
